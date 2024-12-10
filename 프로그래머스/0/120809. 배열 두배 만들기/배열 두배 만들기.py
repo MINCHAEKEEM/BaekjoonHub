@@ -1,3 +1,4 @@
 def solution(numbers):
-    answer = [i * 2 for i in numbers]
-    return answer
+    if len(numbers) <= 1000:
+        return numbers * 2
+    
